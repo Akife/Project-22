@@ -1,0 +1,116 @@
+*{
+    padding:0%;
+    margin: 0%;
+
+}
+
+   
+
+    
+#home{
+    margin-left: 150px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#section{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 2fr;
+   font-size: 30px;
+   width: 100vw;
+   height: 70vh; 
+   
+}
+
+ #title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    text-decoration-line: none; 
+ }  
+#name{
+    margin-left: 120px;
+    margin-top: -100px;
+    font-size: 50px;
+    height: 50px;
+}
+img{
+    
+    background-image: url("imges/Akife-2021.jpeg");
+   margin-left: 380px;
+    height: 200px;
+    margin-top: 100px;
+}
+   
+
+   nav{
+      display:grid;
+       grid-template-columns: 1fr;
+       display: flex;
+       justify-content: space-between;
+       
+       
+   }
+   
+
+ 
+  li{
+      width: 200px;
+      text-decoration:none;
+      list-style: none;
+      
+      
+  }
+  #section-2{
+    display:grid;
+    width: 1200px;
+    height: 100px;
+    background-color:#000;
+}
+
+    
+
+#paragraph{
+    margin-bottom: 70px;
+    margin-left:50px;
+}
+#button{
+    width: 80px;
+    height: 50px;
+    background-color: #75241ace;
+    color: #1f71b4;
+}
+
+   #about{
+    display:grid;
+    width: 100vw;
+    height: 50vh; 
+    color: #fff;
+    background-color:  #000;
+    border:solid #fff;
+ 
+    }
+   #portfolio{
+    display:grid;
+    
+    width: 100vw;
+    height: 100vh; 
+    color: #fff;
+    background-color:  #000;
+    border:solid #fff;
+ 
+    }
+   #contact{
+    display:grid;
+ 
+    width: 100vw;
+    height: 100vh; 
+    color: hsl(209, 43%, 38%);
+    background-color:  #912222;
+    border:solid #000;
+ 
+    }
+   
+ 
+    
